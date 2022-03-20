@@ -19,5 +19,8 @@
   "scripts": {
     "build": "webpack --mode=production",
     "watch": "webpack --watch"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
   }
 }

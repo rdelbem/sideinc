@@ -1,0 +1,19 @@
+.header {
+  background-color: $color-grey;
+
+  & .page-title {
+    font-weight: 600;
+    font-size: 28px;
+    font-size: 1.75rem;
+    line-height: 40px;
+    color: $text-color-dark;
+  }
+}
+
+.site-header {
+  max-width: 100%;
+  //I had to overwrite the default site header paddings to achieve the figma design
+  padding-top: 2.03125rem !important;
+  padding-bottom: 1.90625rem !important;
+  padding-left: 3.75rem !important;
+}

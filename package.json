@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@testing-library/cypress": "8.0.0",
-    "cypress": "8.3.0"
+    "cypress": "8.3.0",
+    "cypress-localstorage-commands": "^1.7.0"
   }
 }

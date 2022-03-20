@@ -1,0 +1,66 @@
+.card {
+  &-container {
+    overflow: hidden;
+    width: 315px;
+    margin-bottom: 3.5rem;
+  }
+
+  &-img-container {
+    position: relative;
+  }
+
+  &-infos {
+    margin-top: 1rem;
+
+    &-property {
+      font-weight: 600;
+      font-size: 1.25rem;
+    }
+
+    &-price {
+      font-size: 1.625rem;
+    }
+
+    &-address {
+      font-size: 0.8rem;
+      font-weight: 400;
+    }
+
+    muted {
+      color: $text-color-muted;
+      font-size: 0.8rem;
+    }
+  }
+
+  &-img {
+    height: 280px;
+    border-radius: 4px;
+  }
+}
+
+.heart {
+  will-change: filter;
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  top: 1rem;
+  right: 1.3rem;
+  border-radius: 1000px;
+  border: 1px solid grey;
+  cursor: pointer;
+  transition: all 0.4s;
+  background-color: red;
+
+  &:hover {
+    transform: translateY(-5px);
+    filter: drop-shadow(0 0 0.75rem grey);
+  }
+
+  &-d-none {
+    display: none;
+  }
+
+  &-stroke {
+    background-color: white !important;
+  }
+}
